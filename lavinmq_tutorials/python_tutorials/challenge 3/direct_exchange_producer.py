@@ -1,3 +1,4 @@
+
 # producer.py
 
 import pika, os
@@ -71,3 +72,4 @@ try:
   print("[❎] Connection closed")
 except Exception as e:
   print(f"Error: #{e}")
+  
